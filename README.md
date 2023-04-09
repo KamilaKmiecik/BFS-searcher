@@ -6,3 +6,4 @@ The code consists of two methods for generating and saving the graph as a bitmap
 The code uses the iTextSharp library for generating the PDF file and the System.Drawing library for creating the bitmap.
 
 The main method initializes a random generator and prompts the user to enter the number of vertices and the probability of an edge existing between two vertices. It then generates the adjacency matrix of the graph, saves it as a bitmap, saves the graph statistics to the text file, adds the BFS results to the text file, and finally converts the text file to a PDF file.
+Example of the generated graph:
